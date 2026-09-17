@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Blog Cards</title>
+</head>
+<style>
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 1.5rem;
+        background: rgb(214, 214, 214);
+    }
+    .card {
+        width: 100%;
+        min-width: 250px;
+        max-width: 400px;
+        box-shadow: 0px 0px 15px 0px lightslategray;
+        border-radius: .2rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: white;
+    }
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 3px 10px 0px;
+    }
+    .card {
+        transition: 0.3s ease-in-out;
+    }
+    .post-img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-top-left-radius: .2rem;
+        border-top-right-radius: .2rem;
+    }
+    .card-content {
+        padding: 1.5rem;
+    }
+    .topic {
+        font-size: 1.5rem;
+    }
+    .extract {
+        font-size: .85rem;
+        line-height: 1.5;
+    }
+    .cta {
+        display: inline-block;
+        padding: .5rem;
+        font-size: .8rem;
+        border-radius: .1rem;
+        text-decoration: none;
+        color: white;
+        width: 30%;
+        background-color: green;
+        text-align: center;
+        transition: background-color 0.1s ease-in-out;
+    }
+    .cta:hover {
+        background-color: rgb(51, 148, 51);
+        border-radius: .2rem;
+    }
+</style>
+<body>
+    <div class="card">
+        <img src="Others/red colored apple product.jpeg" alt="no image" class="post-img">
+        <div class="card-content">
+            <h1 class="topic">Is Apple a Design Company?</h1>
+            <p class="extract">
+                Apple is more than a tech company; it became a culture unto itself,
+                a passion of most of people and the birthplace of the world's most revolutionized 
+                products.
+            </p>
+            <a href="#" class="cta">Read More</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Others/Which Iphone Products is best in low Price _ Multiple Apple Products.jpeg" alt="no image" class="post-img">
+        <div class="card-content">
+            <h1 class="topic">Longevity and Resale</h1>
+            <p class="extract">
+                Apple devices receive software updates for many years and maintain
+                s significantly higher resale value compared to competitors.
+            </p>
+            <a href="#" class="cta">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
